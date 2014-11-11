@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package id.blits.menghitungluas;
+
+/**
+ *
+ * @author Hp
+ */
+public class PersegiPanjang {
+    int panjang,lebar,luas;
+    
+    
+    void tampilPersegiPanjang (){
+    luas = panjang * lebar;
+    System.out.println("PERSEGI PANJANG");
+    System.out.println("Panjang     : "+panjang);
+    System.out.println("Lebar       : "+lebar);
+    System.out.println("LUAS        : "+luas+"\n");
+    }
+    
+}
